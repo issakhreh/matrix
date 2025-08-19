@@ -28,7 +28,7 @@ jobs:
     - name: 📦 Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r requirements.tx
 
     - name: 🔍 Lint with flake8
       run: |
